@@ -1,0 +1,20 @@
+:root{
+    ---branco-principal: #ffffff;
+    ---cinza-secundario: #c0c0c0;
+    ---botão-azul: rgb(32, 24, 79);
+    ---cor-de-fundo: #000;
+    ---fonte-principal: 'inter';
+    ---botão-azul-efeito: #3c92fa;
+}
+
+body{
+    background-color: var(---cor-de-fundo);
+    color: var(---branco-principal);
+    font-family: var(---fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
